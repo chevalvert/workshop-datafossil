@@ -28,28 +28,28 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 
 
 ##Planning :
-###Jour 1 matin :
+###Jour 1 - matin :
 - présentation du studio Chevalvert et du thème du workshop
 - découverte et test des sketchs et du processus mis à disposition
 
-###Jour 1 après-midi :
+###Jour 1 - après-midi :
 - suite découverte et test des skecths mis à disposition
 - formation possible de groupe (par 2 ou 3)
 - recherche sur la visualisation et les exports
 
-###Jour 2 matin :
+###Jour 2 - matin :
 - découverte du FabLab et formation sur les machines
 - premier tests d'impression
 - en parallèle, recherche sur la visualisation et les exports
 
-###Jour 2 après-midi :
+###Jour 2 - après-midi :
 - optimisation de la la visualisation et des exports
 - exports en série et tests de gravure et/ou de découpe
 
-###Jour 3 matin :
+###Jour 3 - matin :
 - gravure et/ou découpe des exports optimisés
 
-###Jour 3 après-midi :
+###Jour 3 - après-midi :
 - gravure et/ou découpe des exports optimisés
 - montage des objets-signes
 - documentation photo/vidéo et échanges
@@ -58,7 +58,7 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 ##Contenu du dossier :
 
 ----
-#Description des skecths
+#Description des sketchs
 
 
 ##00-SENSOR-GROUP-BASE
