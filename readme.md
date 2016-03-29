@@ -18,13 +18,13 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 
 ##Les librairies utilisées sont :
 ###• Pour Arduino :
-- la lib SensorSieldlib Lionel Radisson qui facilite la récupération des données des capteurs
-- la lib SparkFun_HTU21D pour le capteur d'humidité (permettant aussi de récupérer la chaleur)
-- la lib SparkFun SFE_MMA8452Q pour le capteur accéléromètre
+- la lib [SensorSieldlib](https://github.com/MAKIO135/sensorShieldLib) Lionel Radisson qui facilite la récupération des données des capteurs
+- la lib [SparkFun_HTU21D](https://github.com/sparkfun/HTU21D_Breakout) pour le capteur d'humidité (permettant aussi de récupérer la chaleur)
+- la lib SparkFun [SFE_MMA8452Q](https://github.com/sparkfun/MMA8452_Accelerometer) pour le capteur accéléromètre
 
 ###• Pour Processing :
-- la lib oscP5 pour la transmission de données sur un réseau à partir d'un ordinateur (serveur) à un ou plusieurs ordinateurs (client)
-- la lib controlP5 pour le contrôle de paramètre via une interface utilisateur graphique (GUI)
+- la lib [oscP5](https://github.com/sojamo/oscp5) pour la transmission de données sur un réseau à partir d'un ordinateur (serveur) à un ou plusieurs ordinateurs (client)
+- la lib [controlP5](https://github.com/sojamo/controlp5) pour le contrôle de paramètre via une interface utilisateur graphique (GUI)
 
 
 ##Planning :
