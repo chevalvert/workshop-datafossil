@@ -4,8 +4,8 @@
 Créer un objet-signe à la fois réactif (aux capteurs) et apte à se matérialiser physiquement.
 
 ##Processus :
-1/ Concevoir une visualisation réactive aux données des capteurs sous la forme d'un objet graphique, d'un paysage, d'un organisme.
-2/ Matérialiser cet instant ou cette série d'instants (timeline) sous la forme d'une stratification ou d'un objet sculptural.
+- 1/ Concevoir une visualisation réactive aux données des capteurs sous la forme d'un objet graphique, d'un paysage, d'un organisme.
+- 2/ Matérialiser cet instant ou cette série d'instants (timeline) sous la forme d'une stratification ou d'un objet sculptural.
 
 Pour atteindre cet objectif, nous avons mis en place et préparé un processus qui réunis :
 - un ensemble de capteurs 
