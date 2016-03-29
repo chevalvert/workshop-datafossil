@@ -17,7 +17,7 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 
 ##Références :
 [Dataphys.org](http://dataphys.org/list/)
-
+[Exemple D3js](https://github.com/mbostock/d3/wiki/Gallery)
 
 ##Planning :
 ###Jour 1 - matin :
