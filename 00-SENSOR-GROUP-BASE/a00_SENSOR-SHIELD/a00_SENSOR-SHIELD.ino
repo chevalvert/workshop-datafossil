@@ -30,7 +30,8 @@ float humd, temp;
 void setup() {
   // initialises and start Serial with 9600 baudrate
   board.init();
-
+  board.setSensorSensitivity(0);
+  
   // add analog sensors
   board.addSensor("capteurLDR", A0);
   board.addSensor("capteurFSR", A1);
