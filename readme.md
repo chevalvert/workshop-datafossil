@@ -15,16 +15,8 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 - Le workshop étant d'une durée de 3 jours, il est proposé aux participant de se concentrer dans un premier temps sur des visualisations 2D. Celles-ci pourront ensuite assembler comme un objet en 3 dimensions (strates ou disposition dans l'espace spécifique) lors de leur matérialisation.  
 - pour des questions de temps, il est également proposé d'utiliser des procédés de découpe ou gravure laser, plus rapide que les procédés d'impression 3D, même si ces derniers ne sont pas exclus.
 
-
-##Les librairies utilisées sont :
-###• Pour Arduino :
-- la lib [SensorSieldlib](https://github.com/MAKIO135/sensorShieldLib) Lionel Radisson qui facilite la récupération des données des capteurs
-- la lib [SparkFun_HTU21D](https://github.com/sparkfun/HTU21D_Breakout) pour le capteur d'humidité (permettant aussi de récupérer la chaleur)
-- la lib SparkFun [SFE_MMA8452Q](https://github.com/sparkfun/MMA8452_Accelerometer) pour le capteur accéléromètre
-
-###• Pour Processing (requis pour les participants) :
-- la lib [oscP5](https://github.com/sojamo/oscp5) pour la transmission de données sur un réseau à partir d'un ordinateur (serveur) à un ou plusieurs ordinateurs (client)
-- la lib [controlP5](https://github.com/sojamo/controlp5) pour le contrôle de paramètre via une interface utilisateur graphique (GUI)
+##Références :
+[Dataphys.org](http://dataphys.org/list/)
 
 
 ##Planning :
@@ -55,7 +47,24 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 - documentation photo/vidéo et échanges
 
 
+
+
+##Les librairies utilisées sont :
+###• Pour Arduino :
+- la lib [SensorSieldlib](https://github.com/MAKIO135/sensorShieldLib) Lionel Radisson qui facilite la récupération des données des capteurs
+- la lib [SparkFun_HTU21D](https://github.com/sparkfun/HTU21D_Breakout) pour le capteur d'humidité (permettant aussi de récupérer la chaleur)
+- la lib SparkFun [SFE_MMA8452Q](https://github.com/sparkfun/MMA8452_Accelerometer) pour le capteur accéléromètre
+
+###• Pour Processing (requis pour les participants) :
+- la lib [oscP5](https://github.com/sojamo/oscp5) pour la transmission de données sur un réseau à partir d'un ordinateur (serveur) à un ou plusieurs ordinateurs (client)
+- la lib [controlP5](https://github.com/sojamo/controlp5) pour le contrôle de paramètre via une interface utilisateur graphique (GUI)
+
+
+
+
 ##Contenu du dossier :
+
+
 
 ----
 #Description des sketchs
