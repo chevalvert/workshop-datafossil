@@ -1,4 +1,4 @@
-#Description du workshop Stereo-Signes à Stereolux les 29, 30 et 31 mars 2016
+#Description du workshop Stereo-Signes (alias DataFossil) à Stereolux les 29, 30 et 31 mars 2016
 
 ##Sujet :
 Créer un objet-signe à la fois réactif (aux capteurs) et apte à se matérialiser physiquement.
