@@ -44,6 +44,8 @@ void setup() {
   myPort.clear();
 
   // create a new instance of oscP5 using a multicast socket (ethernet or wifi IP)
+  //oscP5 = new OscP5(this, "224.0.0.1", 7777);
+  //oscP5 = new OscP5(this, "10.203.1.167", 9999);
   oscP5 = new OscP5(this, "224.0.0.1", 7777);
 }
 

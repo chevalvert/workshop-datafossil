@@ -1,4 +1,4 @@
-#Description du workshop Stereo-Signes (alias DataFossil) à Stereolux les 29, 30 et 31 mars 2016
+#Workshop Stereo-Signes (alias DataFossil) réalisé à Stereolux les 29, 30 et 31 mars 2016
 
 ##Sujet :
 Créer un objet-signe à la fois réactif (aux capteurs) et apte à se matérialiser physiquement.
@@ -21,7 +21,6 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 - [Meshu](https://meshu.io/make/facet)
 - [n-e-r-v-o-u-s.com](http://n-e-r-v-o-u-s.com)
 - [Petroglyphe](https://fr.wikipedia.org/wiki/P%C3%A9troglyphe)
-
 
 ##Planning :
 ###Jour 1 - matin :
@@ -52,7 +51,6 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 
 
 
-
 ##Les librairies utilisées sont :
 ###• Pour Arduino :
 - la lib [SensorSieldlib](https://github.com/MAKIO135/sensorShieldLib) Lionel Radisson qui facilite la récupération des données des capteurs
@@ -67,9 +65,6 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 
 
 ##Contenu du dossier :
-
-
-
 ----
 #Description des sketchs
 
@@ -79,25 +74,16 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 Sketch Arduino permettant le fonctionnement des capteurs
 
 Capteurs utilisés :
-capteurLDR	Lumière 
-capteurFSR	Force (pression)
-capteurFLEX	Flexion
-capteurPOULS	Pouls
-capteurSONAR	Distance
-
-myHumidity
-humidityValue	humidity
-temperatureValue temperature
-
-Le capteur HTU21D Humidity comporte des fonctions qui renvoie la température eu l'humidité.
+- capteurLDR	Lumière 
+- capteurFSR	Force (pression)
+- capteurFLEX	Flexion
+- capteurPOULS	Pouls
+- capteurSONAR	Distance
 
 
 ###p00_arduino_to_processing
 Sketch Processing permettant la communication entre Arduino et Processing.
 Une fonction Datavis permet le contrôle du "mapping" des données et de leur affichage en temps-réel.
-
-
-
 
 ##10-MULTICAST
 
@@ -111,14 +97,10 @@ Une fois le sketch "server" lancé (p00_oscP5_multicast_server), ce sketch "clie
 Ce sketch est une variante du sketch précédent "client" où la librairie controlP5 a été ajouté pour justement contrôler le rendu de la visualisation.
 
 
-
-
 ##20-DRAW-RADIAL
 
 ###p00_client_datavis_radial_lines
 Visualisation circulaire itérative sous la forme de cercles concentriques. Un export PDF est généré automatiquement quand le cercle a fait un tour complet, soit 360°.  
-
-
 
 
 ##30-DRAW-STRATES
@@ -135,10 +117,6 @@ Visualisation identique à p10_client_datavis_strates_vertex mais qui combine 4 
 
 ###p20_client_datavis_strates_lines
 Visualisation itérative sous la forme de strates composées de lignes. La hauteur de celles-ci varient suivant les valeurs réceptionnées.
-
-
-
-
 
 
 ##30-SAVE-VALUES
@@ -161,6 +139,25 @@ Intégration de l'enregistrement de données au sein d'un sketch "server".
 ###p60_oscP5_multicast_client_print_writer
 Intégration de l'enregistrement de données au sein d'un sketch "client".
 
+#Réalisations
 
+##Participants
+Clément Gault, Louis Éveillard, Émilie Coquard, Nathalie Guimbretiere, Estelle Hary, Gaëlle Jolivet, Andréa Dumont, Adam Duwyn, Estelle Joly, Anaëlle Couëllan, Delphine Kreis
+
+![01.jpg](images/01.jpg)
+![02.jpg](images/02.jpg)
+![03.jpg](images/03.jpg)
+![03a.jpg](images/03a.jpg)
+![04.jpg](images/04.jpg)
+![05.jpg](images/05.jpg)
+![06.jpg](images/06.jpg)
+![07.jpg](images/07.jpg)
+![08.jpg](images/07.jpg)
+![09.jpg](images/08.jpg)
+![10.jpg](images/01.jpg)
+![11.jpg](images/02.jpg)
+![12.jpg](images/03.jpg)
+![13.jpg](images/04.jpg)
+![14.jpg](images/05.jpg)
 
 
