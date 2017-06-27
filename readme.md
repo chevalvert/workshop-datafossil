@@ -1,4 +1,7 @@
-#Workshop Stereo-Signes (alias DataFossil) réalisé à Stereolux les 29, 30 et 31 mars 2016
+# Workshop Stereo-Signes (alias DataFossil) 
+Réalisé à Stereolux et le Fabmake de Nantes les 29, 30 et 31 mars 2016
+Mené par Stéphane Buellet (préparé avec Julia Puyo) sur l’invitation de Boris Letessier.
+
 
 ## Sujet :
 Créer un objet-signe à la fois réactif (aux capteurs) et apte à se matérialiser physiquement.
@@ -24,7 +27,6 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 
 ## Planning :
 ### Jour 1 - matin :
->>>>>>> origin/master
 - présentation du studio Chevalvert et du thème du workshop
 - découverte et test des sketchs et du processus mis à disposition
 
@@ -53,7 +55,6 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 
 ## Les librairies utilisées sont :
 ### • Pour Arduino :
->>>>>>> origin/master
 - la lib [SensorSieldlib](https://github.com/MAKIO135/sensorShieldLib) Lionel Radisson qui facilite la récupération des données des capteurs
 - la lib [SparkFun_HTU21D](https://github.com/sparkfun/HTU21D_Breakout) pour le capteur d'humidité (permettant aussi de récupérer la chaleur)
 - la lib SparkFun [SFE_MMA8452Q](https://github.com/sparkfun/MMA8452_Accelerometer) pour le capteur accéléromètre
@@ -64,8 +65,6 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 
 
 
-## Contenu du dossier :
-----
 # Description des sketchs
 
 
@@ -137,9 +136,9 @@ Intégration de l'enregistrement de données au sein d'un sketch "server".
 ### p60_oscP5_multicast_client_print_writer
 Intégration de l'enregistrement de données au sein d'un sketch "client".
 
-#Réalisations
+# Réalisations
 
-##Participants
+## Participants
 Clément Gault, Louis Éveillard, Émilie Coquard, Nathalie Guimbretiere, Estelle Hary, Gaëlle Jolivet, Andréa Dumont, Adam Duwyn, Estelle Joly, Anaëlle Couëllan, Delphine Kreis
 
 ![01.jpg](images/01.jpg)
