@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 #Workshop Stereo-Signes (alias DataFossil) réalisé à Stereolux les 29, 30 et 31 mars 2016
-=======
-# Description du workshop Stereo-Signes (alias DataFossil) à Stereolux les 29, 30 et 31 mars 2016
->>>>>>> origin/master
 
 ## Sujet :
 Créer un objet-signe à la fois réactif (aux capteurs) et apte à se matérialiser physiquement.
@@ -25,11 +21,6 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 - [Meshu](https://meshu.io/make/facet)
 - [n-e-r-v-o-u-s.com](http://n-e-r-v-o-u-s.com)
 - [Petroglyphe](https://fr.wikipedia.org/wiki/P%C3%A9troglyphe)
-
-<<<<<<< HEAD
-##Planning :
-###Jour 1 - matin :
-=======
 
 ## Planning :
 ### Jour 1 - matin :
@@ -60,12 +51,6 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 - documentation photo/vidéo et échanges
 
 
-
-<<<<<<< HEAD
-##Les librairies utilisées sont :
-###• Pour Arduino :
-=======
-
 ## Les librairies utilisées sont :
 ### • Pour Arduino :
 >>>>>>> origin/master
@@ -79,15 +64,7 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 
 
 
-
-<<<<<<< HEAD
-##Contenu du dossier :
-=======
 ## Contenu du dossier :
-
-
-
->>>>>>> origin/master
 ----
 # Description des sketchs
 
@@ -108,14 +85,7 @@ Capteurs utilisés :
 Sketch Processing permettant la communication entre Arduino et Processing.
 Une fonction Datavis permet le contrôle du "mapping" des données et de leur affichage en temps-réel.
 
-<<<<<<< HEAD
-##10-MULTICAST
-=======
-
-
-
 ## 10-MULTICAST
->>>>>>> origin/master
 
 ### p00_oscP5_multicast_server
 Ce sketch utilise la librairie oscP5 pour envoyer les données "parsée" au format JSON des capteurs sur une adresse IP (224.0.0.1 par exemple) via un réseau (WiFi ou ethernet).
@@ -127,25 +97,12 @@ Une fois le sketch "server" lancé (p00_oscP5_multicast_server), ce sketch "clie
 Ce sketch est une variante du sketch précédent "client" où la librairie controlP5 a été ajouté pour justement contrôler le rendu de la visualisation.
 
 
-<<<<<<< HEAD
-##20-DRAW-RADIAL
-=======
-
-
 ## 20-DRAW-RADIAL
->>>>>>> origin/master
 
 ### p00_client_datavis_radial_lines
 Visualisation circulaire itérative sous la forme de cercles concentriques. Un export PDF est généré automatiquement quand le cercle a fait un tour complet, soit 360°.  
 
-
-<<<<<<< HEAD
-##30-DRAW-STRATES
-=======
-
-
 ## 30-DRAW-STRATES
->>>>>>> origin/master
 
 ### p00_client_datavis_strates_degrees
 Visualisation itérative sous la forme de barres de même longueur. La seule information est basée sur le capteur de flexion et transforme les données en degrés. Cette information permettra après découpe de faire varier l'angle des barres suivant la flexion appliquées à chaque enregistré.
@@ -160,16 +117,7 @@ Visualisation identique à p10_client_datavis_strates_vertex mais qui combine 4 
 ### p20_client_datavis_strates_lines
 Visualisation itérative sous la forme de strates composées de lignes. La hauteur de celles-ci varient suivant les valeurs réceptionnées.
 
-
-<<<<<<< HEAD
-##30-SAVE-VALUES
-=======
-
-
-
-
 ## 30-SAVE-VALUES
->>>>>>> origin/master
 
 ### p00_print_writer_base
 Exemple pour la captation d'une variable (position souris X et Y) et l'enregistrement dans un fichier au format .txt. 
