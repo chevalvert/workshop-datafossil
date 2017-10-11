@@ -10,7 +10,7 @@ Créer un objet-signe à la fois réactif (aux capteurs) et apte à se matérial
 - 1/ Concevoir une visualisation réactive aux données des capteurs sous la forme d'un objet graphique, d'un paysage, d'un organisme.
 - 2/ Matérialiser cet instant ou cette série d'instants (timeline) sous la forme d'une stratification ou d'un objet sculptural.
 
-Pour atteindre cet objectif, nous avons mis en place et préparé un processus qui réunis :
+Pour atteindre cet objectif, nous avons mis en place et préparé un processus qui réunit :
 - un ensemble de capteurs 
 - des sketchs Arduino et Processing facilitant la récupération des données, leur visualisation et leur export en format vectoriel.
 
@@ -63,6 +63,7 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 - la lib [oscP5](https://github.com/sojamo/oscp5) pour la transmission de données sur un réseau à partir d'un ordinateur (serveur) à un ou plusieurs ordinateurs (client)
 - la lib [controlP5](https://github.com/sojamo/controlp5) pour le contrôle de paramètre via une interface utilisateur graphique (GUI)
 
+![sensorshield-1-2.png](images/sensorshield-1-2.png)
 
 
 # Description des sketchs
