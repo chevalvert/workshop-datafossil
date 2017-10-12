@@ -51,6 +51,8 @@ void draw() {
       catch ( Exception e ) {
         e.printStackTrace();
       }
+      // record thoses values
+      output.println(lightValue + "\t" + forceValue + "\t" + flexValue + "\t" + pulseValue + "\t" + distanceValue + "\t" + humidityValue + "\t" + temperatureValue);
     }
   }
 }
