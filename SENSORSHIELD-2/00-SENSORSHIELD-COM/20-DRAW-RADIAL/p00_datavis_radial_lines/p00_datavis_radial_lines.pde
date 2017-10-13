@@ -54,13 +54,13 @@ void setup() {
 
   // textes
   fill(0);
-  text("LUMIÈRE", 125, 200); 
-  text("VIBRATION", 275, 200);
-  text("POTENTIOMÈTRE", 405, 200);
-  text("TEMPÉRATURE", 565, 200);
-  text("ORIENTATION X", 105, 500); 
-  text("ORIENTATION Y", 255, 500);
-  text("ORIENTATION Z", 410, 500);
+  text("LUMIÈRE", width/2 + 10, height/2); 
+  text("VIBRATION", width/2 + 90, height/2);
+  text("POTEN", width/2 + 180, height/2);
+  text("TEMP", width/2 + 280, height/2);
+  text("X", width/2 + 360, height/2); 
+  text("Y", width/2 + 440, height/2);
+  text("Z", width/2 + 560, height/2);
   noFill();
   
   gui();
@@ -71,7 +71,7 @@ void setup() {
 
 void draw() {
   // read sensorShield
-  while ( myPort.available() > 0 ) {
+  if ( myPort.available() > 0 ) {
     String data = myPort.readStringUntil( '\n' );
     if ( data != null ) {
       println( data ); 

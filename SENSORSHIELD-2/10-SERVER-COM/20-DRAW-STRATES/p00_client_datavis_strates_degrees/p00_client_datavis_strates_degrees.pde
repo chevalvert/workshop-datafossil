@@ -61,6 +61,11 @@ void setup() {
   background(255);
   stroke(0);
 
+  // textes
+  fill(0);
+  text("POTENTIOMETER", 30, 30);
+  noFill();
+
   gui();
 
   // create a new instance of oscP5 using a multicast socket 

@@ -10,9 +10,8 @@ void dataVis() {
   strokeWeight(s1);
 
   //////////  LIGHT  //////////
-
+  fill(255, 0, 0);
   mapLightValue =  map(lightValue, 160, 720, height-20, 20); 
-  fill(0);
   text("Light value : "+ round(lightValue), 30, height-30);
 
   // We are going to draw a vertex out of the wave points from flex sensor
@@ -40,10 +39,9 @@ void dataVis() {
 
 
   //////////  VIBRATION  //////////
-
+  fill(0, 255, 0);
   mapVibrationValue =  map(vibrationValue, 980, 1023, height-60, 20); 
-  fill(0);
-  text("Vibration value : "+ round(vibrationValue), 30, height-30);
+  text("Vibration value : "+ round(vibrationValue), 30, height-40);
 
   beginShape(); 
   noFill();
@@ -65,9 +63,9 @@ void dataVis() {
 
 
   //////////  POT  //////////
-
+  fill(0, 0, 255);
   mapPotValue =  map(potValue, 0, 1023, 20, height-20); 
-  text("Pot value : "+ round(potValue), 30, height-30);
+  text("Pot value : "+ round(potValue), 30, height-50);
 
   beginShape(); 
   noFill();
@@ -89,10 +87,9 @@ void dataVis() {
 
 
   //////////  TEMP  //////////
-
-  mapTempValue =  map(tempValue, 20, 25, 20, height-60); 
   fill(0);
-  text("Distance value : "+ round(tempValue), 30, height-30);
+  mapTempValue =  map(tempValue, 20, 25, 20, height-60); 
+  text("Distance value : "+ round(tempValue), 30, height-60);
 
   beginShape(); 
   noFill();

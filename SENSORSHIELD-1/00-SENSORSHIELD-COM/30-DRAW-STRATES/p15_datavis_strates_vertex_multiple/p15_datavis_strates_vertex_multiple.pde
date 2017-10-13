@@ -74,7 +74,7 @@ void draw() {
 
 
   // read sensorShield
-  while ( myPort.available() > 0 ) {
+  if ( myPort.available() > 0 ) {
     String data = myPort.readStringUntil( '\n' );
     if ( data != null ) {
       println( data ); 

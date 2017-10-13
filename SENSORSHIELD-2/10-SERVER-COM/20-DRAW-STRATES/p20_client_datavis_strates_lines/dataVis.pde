@@ -38,7 +38,7 @@ void dataVis() {
   line(xPos, mapZValue, xPos, 820);
 
   // avancer x
-  xPos= xPos + 1;
+  xPos= xPos + 10;
   delay(10);
 
   if (xPos > width-20) {

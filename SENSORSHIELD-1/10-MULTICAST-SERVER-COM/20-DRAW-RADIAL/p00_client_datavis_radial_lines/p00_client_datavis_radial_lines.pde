@@ -58,13 +58,16 @@ void setup() {
   smooth();
   background(255);
 
-  text("LIGHT", 50, 1250);
-  text("FORCE", 50, 1275);
-  text("FLEXION", 50, 1300);
-  text("DISTANCE", 50, 1325);
-  text("TEMPÉRATURE", 50, 1350);
-  text("HUMIDITÉ", 50, 1375);
-  text("POULS", 50, 1400);
+  // textes
+  fill(0);
+  text("LUMIÈRE", width/2 + 10, height/2); 
+  text("PRESSION", width/2 + 90, height/2);
+  text("FLEXION", width/2 + 180, height/2);
+  text("DISTANCE", width/2 + 260, height/2); 
+  text("TEMP", width/2 + 360, height/2);
+  text("HUMD", width/2 + 440, height/2);
+  text("POULS", width/2 + 560, height/2);
+  noFill();
 
   gui();
 

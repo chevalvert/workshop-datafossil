@@ -13,6 +13,7 @@ void dataVis() {
 
 
   //////////  LIGHT  //////////
+  fill(255, 0, 0);
 
   mapLightValue =  map(lightValue, 160, 550, height-20, 20); 
   text("Light value : "+ round(lightValue), 30, height-30);
@@ -42,7 +43,7 @@ void dataVis() {
 
 
   //////////  FORCE  //////////
-
+  fill(0, 255, 0);
   mapForceValue =  map(forceValue, 0, 960, height-60, 20); 
   text("Force value : "+ round(forceValue), 30, height-40);
 
@@ -66,7 +67,7 @@ void dataVis() {
 
 
   //////////  FLEX  //////////
-
+  fill(0, 0, 255);
   mapFlexValue =  map(flexValue, 150, 330, 20, height-20); 
   text("Flex value : "+ round(flexValue), 30, height-50);
 
@@ -90,7 +91,7 @@ void dataVis() {
 
 
   //////////  DISTANCE  //////////
-
+  fill(0);
   mapDistanceValue =  map(distanceValue, 14, 160, 20, height-60); 
   text("Distance value : "+ round(distanceValue), 30, height-60);
 

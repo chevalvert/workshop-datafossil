@@ -52,7 +52,7 @@ void setup() {
 
   // create a new instance of oscP5 using a multicast socket 
   // the ethernet or wifi IP has to be the same as the one written on the server sketch
-  oscP5 = new OscP5(this, "239.0.0.1", 7777);
+  oscP5 = new OscP5(this, "224.0.0.1", 7777);
 }
 
 

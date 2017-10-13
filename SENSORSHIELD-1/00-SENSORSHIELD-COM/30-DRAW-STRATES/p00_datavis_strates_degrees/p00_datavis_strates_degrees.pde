@@ -55,7 +55,7 @@ void setup() {
 
   // textes
   fill(0);
-  text("FLEXION", 30, 10);
+  text("FLEXION", 30, 30);
   noFill();
 
   gui();
@@ -66,7 +66,7 @@ void setup() {
 
 void draw() {
   // read sensorShield
-  while ( myPort.available() > 0 ) {
+  if ( myPort.available() > 0 ) {
     String data = myPort.readStringUntil( '\n' );
     if ( data != null ) {
       println( data ); 
