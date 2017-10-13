@@ -18,14 +18,6 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 - Le workshop étant d'une durée de 3 jours, il est proposé aux participant de se concentrer dans un premier temps sur des visualisations 2D. Celles-ci pourront ensuite assembler comme un objet en 3 dimensions (strates ou disposition dans l'espace spécifique) lors de leur matérialisation.  
 - pour des questions de temps, il est également proposé d'utiliser des procédés de découpe ou gravure laser, plus rapide que les procédés d'impression 3D, même si ces derniers ne sont pas exclus.
 
-## Installer :
-Côté Processing
-- [oscP5 library](http://www.sojamo.de/libraries/oscP5/)
-- [controlP5 library](http://www.sojamo.de/libraries/controlP5/)
-
-Côté Arduino
-- [sensorShield library](https://github.com/MAKIO135/sensorShieldLib)
-
 ## Références :
 - [Dataphys.org](http://dataphys.org/list/)
 - [Exemple D3js](https://github.com/mbostock/d3/wiki/Gallery)
