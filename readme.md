@@ -64,7 +64,9 @@ Pour atteindre cet objectif, nous avons mis en place et préparé un processus q
 - la lib [controlP5](https://github.com/sojamo/controlp5) pour le contrôle de paramètre via une interface utilisateur graphique (GUI)
 
 ![sensorshield-1-2.png](images/sensorshield-1-2.png)
-
+![sensorshield-flux.png](images/sensorshield-flux.png)
+![sensorshield1-schematics.png](images/sensorshield1-schematics.png)
+![sensorshield2-schematics.png](images/sensorshield2-schematics.png)
 
 # Description des sketchs
 
